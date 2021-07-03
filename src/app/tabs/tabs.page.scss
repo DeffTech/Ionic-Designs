@@ -1,1 +1,34 @@
+ion-tab-bar, ion-tab-button{
+  --background: #424244;
+  border-radius: 20px 20px 0 0;
+}
 
+ion-tab-button[aria-selected=true] {
+  // box-shadow: 0 5px 0 0 var(--ion-color-primary) inset;
+}
+
+ion-menu {
+  --background: var(--ion-color-primary);
+}
+
+ion-menu::part(container) {
+  border-radius: 0 1rem 1rem 0;
+}
+
+ion-avatar {
+  margin: 3rem auto;
+  width:100% !important;
+  height : 100% !important;
+  max-width: 100px !important;  //any size
+  max-height: 100px !important; //any size
+}
+
+ion-list {
+  height: 100%;
+  background-color: #252429;
+}
+
+hr {
+  border: 1px solid #fff;
+  background: var(--ion-color-primary);
+}

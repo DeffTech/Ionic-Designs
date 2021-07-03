@@ -1,0 +1,52 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Headset",
+      "description": "",
+      "price": "199",
+      "imageUrls": ["./assets/images/headset-transparent.png"],
+      "category": {
+        "id": 2,
+        "name": "Oculus"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Controller",
+      "description": "",
+      "price": "199",
+      "imageUrls": ["./assets/images/controller-transparent.png"],
+      "category": {
+        "id": 2,
+        "name": "Oculus"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "New"
+    },
+    {
+      "id": 2,
+      "name": "Oculus"
+    },
+    {
+      "id": 3,
+      "name": "Sales"
+    },
+    {
+      "id": 4,
+      "name": "Series 4"
+    },
+    {
+      "id": 5,
+      "name": "PS5"
+    },
+    {
+      "id": 6,
+      "name": "Connectivity"
+    }
+  ]
+}

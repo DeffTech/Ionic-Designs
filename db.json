@@ -1,0 +1,85 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Headset",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque modi quo ratione soluta nisi necessitatibus qui quasi, vitae nulla illum, id tenetur numquam, cumque et! Quod ex odit dicta, quaerat adipisci consectetur autem neque, debitis mollitia amet, excepturi culpa magnam ea quo. Magni porro eveniet minima sint soluta! Nisi rem eius assumenda obcaecati, doloremque saepe similique doloribus unde perferendis adipisci omnis facilis, commodi quae maxime.",
+      "price": "199",
+      "imageUrls": ["./assets/images/headset-transparent.png"],
+      "category": {
+        "id": 2,
+        "name": "Oculus"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Controller",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque modi quo ratione soluta nisi.",
+      "price": "199",
+      "imageUrls": ["./assets/images/controller-transparent.png"],
+      "category": {
+        "id": 2,
+        "name": "Oculus"
+      }
+    },
+    {
+      "id": 3,
+      "name": "PS5",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque modi quo ratione soluta nisi.",
+      "price": "999",
+      "imageUrls": ["./assets/images/ps5.png"],
+      "category": {
+        "id": 5,
+        "name": "Console"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Gaming Headset",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque modi quo ratione soluta nisi.",
+      "price": "999",
+      "imageUrls": ["./assets/images/gaming-headset.png"],
+      "category": {
+        "id": 3,
+        "name": "Gaming"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Gaming Mouse",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque modi quo ratione soluta nisi.",
+      "price": "999",
+      "imageUrls": ["./assets/images/gaming-mouse.png"],
+      "category": {
+        "id": 3,
+        "name": "Gaming"
+      }
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "New"
+    },
+    {
+      "id": 2,
+      "name": "Oculus"
+    },
+    {
+      "id": 3,
+      "name": "Gaming"
+    },
+    {
+      "id": 4,
+      "name": "Series 4"
+    },
+    {
+      "id": 5,
+      "name": "Console"
+    },
+    {
+      "id": 6,
+      "name": "Connectivity"
+    }
+  ]
+}
