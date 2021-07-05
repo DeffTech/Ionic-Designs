@@ -1,3 +1,4 @@
+import { SharedDirectivesModule } from './../../directives/shared-directives.module';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
@@ -13,8 +14,11 @@ import { DetailPage } from './detail.page';
     CommonModule,
     FormsModule,
     IonicModule,
-    DetailPageRoutingModule
+    DetailPageRoutingModule,
+    SharedDirectivesModule
   ],
-  declarations: [DetailPage]
+  declarations: [
+    DetailPage,
+  ]
 })
 export class DetailPageModule {}

@@ -1,3 +1,4 @@
+import { SharedDirectivesModule } from './../directives/shared-directives.module';
 import { IonicModule } from '@ionic/angular';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -14,11 +15,11 @@ import { ScrollVanishDirective } from '../directives/scroll-vanish.directive';
     CommonModule,
     FormsModule,
     ExploreContainerComponentModule,
-    Tab1PageRoutingModule
+    Tab1PageRoutingModule,
+    SharedDirectivesModule
   ],
   declarations: [
     Tab1Page,
-    ScrollVanishDirective
   ]
 })
 export class Tab1PageModule {}

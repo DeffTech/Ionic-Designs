@@ -20,6 +20,8 @@ export class Tab1Page implements OnInit {
 
   products: Product[];
   categories: Category[];
+  filteredCategoryList: any;
+  filterCount: any;
 
   constructor(
     private productService: ProductService,
@@ -48,4 +50,5 @@ export class Tab1Page implements OnInit {
       // console.log(this.categories);
     });
   }
+
 }
